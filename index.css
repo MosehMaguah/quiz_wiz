@@ -21,7 +21,7 @@ h4 {
 h1 {
   font-size: 5.4rem;
   color: #000000;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 100px;
   margin-bottom: 5rem;
 }
@@ -127,3 +127,11 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+@media screen and (max-width:450px ) {
+  h1{
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
